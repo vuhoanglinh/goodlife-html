@@ -1,0 +1,191 @@
+/*
+* Copyright 2016 Goodlife Landscaping & Lawn Care, LLC;
+* Author: Linh Vu;
+* Plugins: Bootstrap v3.3.7 (http://getbootstrap.com);
+* Fonts: "Friz Quadrata", "Friz Quadrata Bold", "Horseback Slab Bold";
+* 
+* Color: 
+*	Green: #a4cd39
+*	White: #ffffff
+* 	Brown: #474135
+* 		   #edf5d7
+		   #dddddd
+*/
+
+/*
+* GENERAL CSS
+*/
+body {
+	font-family: 'FrizQuadrataStd-Regular', sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.layer {
+	padding: 0 50px;
+	background-size: 100%;
+	position: relative;
+}
+
+.layer01 {
+	background-image: url('../images/landscaping05.jpg');
+	background-size: contain;
+}
+
+.layer02 {
+	background-image: url('../images/landscaping01.jpg');
+	z-index: 1;
+}
+
+.layer03 {
+	background-image: url('../images/landscaping02.jpg');
+	z-index: 2;
+}
+
+.layer04 {
+	background-image: url('../images/landscaping04.jpg');
+}
+
+.font-bold,
+h1.font-bold,
+h2.font-bold,
+h3.font-bold,
+h4.font-bold,
+h5.font-bold,
+h6.font-bold,
+p.font-bold,
+span.font-bold {
+	font-family: 'HorsebackSlab-Bold', sans-serif;
+}
+
+/*
+* HEADER CSS
+*/
+.header {
+	border-bottom: 15px solid #a4cd39;
+}
+
+.header-left {
+	padding: 40px 0;
+}
+
+
+.header-mark {
+	background: rgba(0, 0, 0, 0.5);
+	margin-left: -35px;
+	padding-left: 35px;
+}
+
+
+.header-logo img {
+	width: 365px;
+	max-width: 100%;
+}
+
+.header-right {
+	padding: 45px 0 0 0;
+}
+
+.header-right h1,
+.header-right h2,
+.header-right h3 {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.header-right-box-center .header-right-title {
+	font-family: 'FrizQuadrataStd-Bold', sans-serif;
+	font-size: 31px;
+	margin-bottom: 0;
+}
+
+.header-right-box-center .header-right-phone {
+	color: #a4cd39;
+	font-size: 70px;
+}
+
+
+/*
+* ABOUT ME CSS
+*/
+.section-form-quotes-right,
+.section-about-left {
+	padding: 30px 15px;
+}
+
+.section-about-me-mark {
+	background: rgba(0, 0, 0, 0.5);
+	margin-left: -35px;
+	padding-left: 35px;
+	padding-right: 50px;
+}
+
+.section-about-left .about-me {
+	margin-left: -30px;
+	margin-top: 30px;
+	position: relative;
+	height: 300px;
+}
+.section-about-left .about-me img {
+	height: 400px;
+}
+
+.section-about-left .about-me .myname {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 28px;
+	line-height: 0.9;
+}
+
+.section-about-left .about-me .myname .about-green-text {
+	color: #a4cd39;
+	font-size: 32px;
+	font-family: 'FrizQuadrataStd-Regular', sans-serif;
+}
+
+.section-about-left .about-me .myname p:first-child {
+	margin-right: -10px;
+	margin-bottom: 0;
+}
+
+.section-about-left .section-about-left-title {
+	font-size: 32px;
+	margin: 0 0 30px 0;
+	line-height: 0.9;
+}
+
+.section-form-quotes-right .panel {
+	width: 80%;
+	float: right;
+}
+.section-form-quotes-right .panel .panel-heading {
+	text-align: center;
+	color: #a4cd39;
+	font-size: 48px;
+	margin-bottom: -20px;
+
+}
+
+.section-form-quotes-right .panel .form-control,
+.section-form-quotes-right .panel .btn {
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	height: 42px;
+	padding: 10 20px;
+	width: 100%;
+	border-color: #474135;
+}	
+
+.section-form-quotes-right .panel textarea.form-control,
+.section-form-quotes-right .panel .btn {
+	height: auto;
+}
+
+.section-form-quotes-right .panel .btn {
+	color: #edf5d7;
+	background-color: #474135;
+	margin-bottom: 20px;
+	font-size: 32px;
+}
