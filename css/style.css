@@ -23,13 +23,12 @@ body {
 
 .layer {
 	padding: 0 50px;
-	background-size: 100%;
+	background-size: cover;
 	position: relative;
 }
 
 .layer01 {
 	background-image: url('../images/landscaping05.jpg');
-	background-size: contain;
 }
 
 .layer02 {
@@ -43,8 +42,13 @@ body {
 }
 
 .layer04 {
+	background-image: url('../images/landscaping03.jpg');
+}
+
+.layer05 {
 	background-image: url('../images/landscaping04.jpg');
 }
+
 
 .font-bold,
 h1.font-bold,
@@ -56,6 +60,11 @@ h6.font-bold,
 p.font-bold,
 span.font-bold {
 	font-family: 'HorsebackSlab-Bold', sans-serif;
+}
+
+.section-our-mission,
+.section-about-me {
+	padding-top: 30px;
 }
 
 /*
@@ -122,7 +131,6 @@ span.font-bold {
 
 .section-about-left .about-me {
 	margin-left: -30px;
-	margin-top: 30px;
 	position: relative;
 	height: 300px;
 }
@@ -166,14 +174,18 @@ span.font-bold {
 	margin-bottom: -20px;
 
 }
-
+.section-form-quotes-right .panel {
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
 .section-form-quotes-right .panel .form-control,
 .section-form-quotes-right .panel .btn {
 	border-radius: 0;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	height: 42px;
-	padding: 10 20px;
+	padding: 0 20px;
 	width: 100%;
 	border-color: #474135;
 }	
@@ -188,4 +200,116 @@ span.font-bold {
 	background-color: #474135;
 	margin-bottom: 20px;
 	font-size: 32px;
+}
+
+/*
+* MISSION CSS
+*/
+.section-our-mission .mission-left h2 {
+	font-size: 52px;
+	line-height: 0.9;
+	margin: 0 0 30px 0;
+}
+
+.section-our-mission .mission-mark {
+	margin: 40px 0 30px;
+	padding: 15px;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.section-our-mission .mission-mark h2 {
+	font-size: 82px;
+	line-height: 0.8;
+	margin: 0;
+	color: #a4cd39;
+}
+
+.section-our-mission .mission-mark-right {
+	font-family: 'FrizQuadrataStd-Bold', sans-serif;
+	font-size: 19px;
+	line-height: 1.2;
+}
+
+
+/*
+* SERVICES CSS
+*/
+.section-our-services {
+	padding: 40px 0 80px;
+}
+
+.section-our-services h2,
+.section-our-testimonials h2,
+.section-message h2{
+	margin: 40px 0 50px;
+	font-size: 58px;
+	color: #a4cd39;
+}
+
+.section-our-services ul {
+	list-style: none;
+	font-family: 'FrizQuadrataStd-Bold', sans-serif;
+	font-size: 32px;
+	line-height: 1.2;
+}
+.section-our-services ul li {
+	margin-bottom: 30px;
+}
+
+.section-our-services p {
+	margin: 20px 0;
+	font-size: 20px;
+}
+
+
+/*
+* TESTIMONIALS CSS
+*/
+.section-our-testimonials {
+	padding:80px 0 150px;
+}
+.col-md-2-10 {
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 20%;
+}
+.testimonial-author {
+	font-family: 'FrizQuadrataStd-Bold', sans-serif;
+}
+
+/*
+* MESSAGE CSS
+*/
+.section-message {
+	padding: 40px 0 140px;
+	margin-top: -10px;
+}
+
+.section-message h2 {
+	margin-top: 80px;
+	line-height: 0.8;
+}
+
+.section-message p {
+	font-family: 'FrizQuadrataStd-Bold', sans-serif;
+	font-size: 32px;
+	line-height: 1;
+}
+
+.footer-mark {
+	margin: 0 -50px;
+	padding: 20px 50px 0 50px;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.footer-bottom-logo img {
+	width: 300px;
+}
+
+.copyright {
+	margin-top: 10px;
+	font-size: 10px;
 }
