@@ -82,7 +82,7 @@ span.font-bold {
 .header-mark {
 	background: rgba(0, 0, 0, 0.5);
 	margin-left: -35px;
-	padding-left: 35px;
+	padding-left: 50px;
 }
 
 
@@ -114,6 +114,7 @@ span.font-bold {
 	font-size: 70px;
 }
 .header-right-box-center .header-right-phone a:hover {
+	text-decoration: none;
 }
 
 /*
@@ -127,7 +128,7 @@ span.font-bold {
 .section-about-me-mark {
 	background: rgba(0, 0, 0, 0.5);
 	margin-left: -35px;
-	padding-left: 35px;
+	padding-left: 50px;
 	padding-right: 50px;
 }
 
@@ -253,6 +254,7 @@ span.font-bold {
 	font-family: 'FrizQuadrataStd-Bold', sans-serif;
 	font-size: 32px;
 	line-height: 1.2;
+	padding: 0;
 }
 .section-our-services ul li {
 	margin-bottom: 30px;
@@ -307,11 +309,16 @@ span.font-bold {
 	background: rgba(0, 0, 0, 0.7);
 }
 
+.footer-bottom-left a {
+	color: #ffffff;
+}
+
 .footer-bottom-logo img {
 	width: 300px;
 }
 
 .copyright {
-	margin-top: 10px;
-	font-size: 10px;
+	font-size: 12px;
 }
+
+

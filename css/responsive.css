@@ -1,14 +1,126 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-
+@media screen and (max-width: 640px) {
+	.layer {
+		padding-left: 25px !important;
+		padding-right: 25px !important;
+	}
+	.footer-bottom-right,
+	.footer-bottom-left,
+	.header-mark, .header-right {
+		width: 100% !important;
+		float: left !important;
+		text-align: left !important; 
+	}
+	.footer-bottom-right {
+		padding-top: 20px;
+	}
+	.header-mark {
+		background-color: transparent;
+		margin-left: 0 !important;
+		text-align: center !important;
+		margin: 0 !important;
+		padding-left: 0 !important
+	}
+	.header-right {
+		padding-top: 0 !important;
+	}
+	.header-right .text-right {
+		text-align: center !important;
+	}
+	.section-our-testimonials .col-md-2-10 {
+		width: 100% !important;
+	}
+	.section-our-services h2, .section-our-testimonials h2, .section-message h2 {
+		font-size: 42px !important;
+	}
+	.section-our-testimonials,
+	.section-message {
+		padding-bottom: 50px;
+	}
+	.section-our-services {
+		padding-bottom: 20px;
+	}
+	.section-our-testimonials {
+		padding-top: 20px;
+	}
+	.section-message h2 {
+		margin-top: 0;
+	}
+	.section-message p {
+		font-size: 26px;
+	}
+	.section-our-services ul {
+		font-size: 22px !important;
+	}
+	.section-our-mission .mission-mark {
+		margin-right: 0 !important;
+	}
+	.section-our-mission .mission-left {
+		padding-right: 15px !important;
+	}
+	.section-form-quotes-right {
+		padding-right: 0 !important;
+	}
+	.section-about-me-mark {
+	    background: rgba(0, 0, 0, 0.5);
+	    margin-left: -10px;
+	    padding-left: 25px;
+	    padding-right: 25px;
+	}
+}
+@media screen and (max-width: 736px) {
+	.header-mark,
+	.header-right {
+		width: 50%;
+		float: left;
+	}
+	.header-mark {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.header-right {
+		padding-top: 25px;
+	}
+	.section-about-me-mark,
+	.section-form-quotes-right .panel {
+		width: 100%;
+		float: left;	
+	}
+	.section-form-quotes-right .panel {
+		width: 100%;
+		margin-top: -140px;
+	}
+	.section-our-mission, .section-about-me {
+	    padding-top: 30px;
+	    padding-right: 0px;
+	}
+	section#section-about-me .row {
+		margin-right: -35px !important;
+	}
+	section#section-about-me .myname {
+		right: 0
+	}
+	.mission-left{
+		padding-right: 50px; 
+	}
+	.mission-mark {
+		margin: 0 50px 20px 0!important;
+	}
+	.footer-bottom-right {
+		width: 50%;
+	}
+	.footer-bottom-left {
+		float: left;
+	}
+}
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    .header-left {
-        padding: 20px 0;
-    }
-    .header-right {
-        padding: 25px 0 0 0;
-    }
+@media screen and (max-width: 768px) {
+	#web {
+	    width: 100%;
+	    padding: 0;
+	}
+    
     .header-logo img {
         width: 250px;
     }
