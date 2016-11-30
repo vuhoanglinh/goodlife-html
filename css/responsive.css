@@ -1,0 +1,85 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .header-left {
+        padding: 20px 0;
+    }
+    .header-right {
+        padding: 25px 0 0 0;
+    }
+    .header-logo img {
+        width: 250px;
+    }
+    .header-right-box-center .header-right-title {
+        font-size: 20px;
+    }
+    .header-right-box-center .header-right-phone,
+    .header-right-box-center .header-right-phone a{
+        font-size: 45px;
+    }
+    .section-about-me {
+        padding-top: 0;
+    }
+    .section-form-quotes-right .panel .panel-heading {
+        font-size: 28px;
+    }
+    .section-form-quotes-right .panel {
+        width: 90%;
+    }
+    .section-form-quotes-right .panel .btn {
+        font-size: 24px;
+    }
+    .section-form-quotes-right, .section-about-left {
+        padding-bottom: 0;
+    }
+    .section-about-left .about-me img {
+        height: 300px;
+    }
+    .section-about-left .about-me .myname {
+        bottom: 190px;
+        right: -35px;
+        font-size: 24px;
+    }
+    .section-about-left .about-me .myname .about-green-text {
+        font-size: 28px;
+    }
+    .section-our-mission .mission-left h2 {
+        font-size: 34px;
+    }
+    .section-our-mission .mission-mark h2 {
+        font-size: 52px;
+        line-height: 1.1;
+    }
+    .section-our-mission .mission-mark-right {
+        font-size: 16px;
+    }
+    .section-our-services h2,
+    .section-our-testimonials h2,
+    .section-message h2 {
+        font-size: 48px;
+    }
+    .section-our-services ul {
+        font-size: 26px;
+    }
+    .section-our-services ul li {
+        margin-bottom: 15px;
+    }
+    .section-our-testimonials .col-md-2-10 {
+        width: 50%;
+    }
+    .footer-bottom-logo img {
+        width: 200px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

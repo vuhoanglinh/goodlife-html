@@ -108,11 +108,13 @@ span.font-bold {
 	margin-bottom: 0;
 }
 
-.header-right-box-center .header-right-phone {
+.header-right-box-center .header-right-phone,
+.header-right-box-center .header-right-phone a{
 	color: #a4cd39;
 	font-size: 70px;
 }
-
+.header-right-box-center .header-right-phone a:hover {
+}
 
 /*
 * ABOUT ME CSS
